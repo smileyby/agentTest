@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>安卓/ios</title>
+</head>
+<body>
+
+</body>
+<script>
+	var uAgent = navigator.userAgent.toLowerCase();
+	if (/(iphone|ipad|ipod|ios)/i.test(uAgent)) {
+		alert("苹果");
+	} else if (/(android|linux)/i.test(uAgent)) {
+		alert("安卓");
+	} else {
+		alert("安卓");
+	};
+</script>
+</html>
